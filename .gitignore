@@ -1,0 +1,57 @@
+# PyCharm specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Python bytecode and compiled files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Virtual environments
+env/
+venv/
+.env/
+.venv/
+# If you use other common virtual environment names, add them here
+# e.g., .direnv/
+
+# Distribution / build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter Notebooks (if you use them)
+.ipynb_checkpoints/
+*.ipynb
+
+# Database files (common for web projects, e.g., SQLite)
+*.sqlite3
+*.db
+
+# Logs (general for web applications)
+logs/
+*.log
+
+# Operating System files
+.DS_Store # macOS
+Thumbs.db # Windows
+ehthumbs.db # Windows
+Desktop.ini # Windows
+
+# FastAPI specific (no additional common ignores beyond general Python/web)
+# If FastAPI or related libraries generate specific files you want to ignore,
+# add them here as you encounter them.
