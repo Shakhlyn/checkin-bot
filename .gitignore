@@ -13,7 +13,7 @@ __pycache__/
 # Virtual environments
 env/
 venv/
-.env/
+.env
 .venv/
 # If you use other common virtual environment names, add them here
 # e.g., .direnv/
