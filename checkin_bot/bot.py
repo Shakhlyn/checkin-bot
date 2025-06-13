@@ -146,4 +146,7 @@ async def on_ready():
     scheduler.add_job(send_daily_checkin, "cron", hour=9, minute=0, day_of_week="mon-fri")
     scheduler.start()
 
-bot.run(TOKEN)
+
+def main():
+    bot.run(TOKEN)
+
