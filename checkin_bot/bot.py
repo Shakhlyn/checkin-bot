@@ -137,6 +137,7 @@ async def send_daily_checkin():
     else:
         print("❌ Could not find channel to send check-in message.")
 
+
 @bot.event
 async def on_ready():
     print(f"✅ Logged in as {bot.user}")
